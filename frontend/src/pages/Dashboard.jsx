@@ -3,7 +3,7 @@ import axios from 'axios';
 
 // Use production API URL when deployed, localhost for development
 const API_URL = import.meta.env.PROD 
-  ? 'https://your-backend-url.onrender.com/api'  // Replace with your Render backend URL after deployment
+  ? 'https://ragavi-foodwebsite.onrender.com/api'
   : 'http://localhost:5000/api';
 
 // Create axios instance with default config
